@@ -6,7 +6,7 @@ import day2 from "../assets/images/days-2.png";
 import day3 from "../assets/images/days-3.png";
 import tree from "../assets/images/pohon-tinggi.png";
 import tree1 from "../assets/images/pohon-kecil.png";
-import pagar1 from "../assets/images/Pagar-1.png";
+import pagar1 from "../assets/images/pagar-1.png";
 import orn from "../assets/images/orn-gift.png";
 import orn1 from "../assets/images/orn.png";
 
