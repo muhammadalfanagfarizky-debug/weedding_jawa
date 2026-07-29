@@ -70,16 +70,6 @@ export default function CowoSection() {
                     </p>
 
                 </div>
-
-
-
-
-
-
-
-
-
-
             </div>
         </section>
     );

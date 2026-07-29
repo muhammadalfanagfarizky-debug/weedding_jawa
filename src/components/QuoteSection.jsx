@@ -66,7 +66,7 @@ export default function QuoteSection() {
                         top-5
                         -right-4
                         w-30
-                        animate-tree2
+                        animate-tree
                         origin-bottom-left
                         z-20
                     "
@@ -110,7 +110,7 @@ export default function QuoteSection() {
                         right-0
                         bottom-34
                         w-30
-                        animate-tree2
+                        animate-tree
                         origin-left-bottom
                         z-20
                     "
@@ -126,7 +126,7 @@ export default function QuoteSection() {
                         left-26.25
                         bottom-2
                         w-37.5
-                        animate-tree2
+                        animate-tree
                         origin-top
                         z-20
                     "
@@ -140,7 +140,7 @@ export default function QuoteSection() {
                         right-0
                         bottom-0
                         w-37.5
-                        animate-tree2
+                        animate-tree
                         origin-top-left
                         z-20
                     "
