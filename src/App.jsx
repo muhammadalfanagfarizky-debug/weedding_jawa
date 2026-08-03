@@ -1,5 +1,5 @@
 import Reveal from "./components/Reveal";
-import InvitationLayout from "./layout/Invitationlayout";
+import Invitationlayout from "./layout/Invitationlayout";
 import HeromobileSection from "./components/HeromobileSection";
 import QuoteSection from "./components/QuoteSection";
 import ProfileSection from "./components/ProfileSection";
@@ -9,7 +9,7 @@ import DresSection from "./components/DresSection";
 import KonfirmasiSection from "./components/KonfirmasiSection";
 import PotraitSection from "./components/PotraitSection";
 import FootageSection from "./components/FootageSection";
-import InstagramSection from "./components/IntagramSection";
+import InstagramSection from "./components/InstagramSection";
 import GiftSection from "./components/GiftSection";
 import SendgiftSection from "./components/SendgiftSection";
 import KedatanganSection from "./components/KedatanganSection";
@@ -21,7 +21,7 @@ import ClosingSection from "./components/ClosingSection";
 export default function App() {
     return (
 
-        <InvitationLayout>
+        <Invitationlayout>
 
             <Reveal>
                 <HeromobileSection />
@@ -82,6 +82,6 @@ export default function App() {
             </Reveal>
 
 
-        </InvitationLayout>
+        </Invitationlayout>
     );
 }
