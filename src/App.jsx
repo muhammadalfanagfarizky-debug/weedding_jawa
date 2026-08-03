@@ -1,5 +1,5 @@
 import Reveal from "./components/Reveal";
-import Invitationlayout from "./layout/Invitationlayout";
+import InvitationLayout from "./layout/InvitationLayout";
 import HeromobileSection from "./components/HeromobileSection";
 import QuoteSection from "./components/QuoteSection";
 import ProfileSection from "./components/ProfileSection";
@@ -15,13 +15,10 @@ import SendgiftSection from "./components/SendgiftSection";
 import KedatanganSection from "./components/KedatanganSection";
 import ClosingSection from "./components/ClosingSection";
 
-
-
-
 export default function App() {
     return (
 
-        <Invitationlayout>
+        <InvitationLayout>
 
             <Reveal>
                 <HeromobileSection />
@@ -82,6 +79,6 @@ export default function App() {
             </Reveal>
 
 
-        </Invitationlayout>
+        </InvitationLayout>
     );
 }

@@ -14,7 +14,7 @@ function InvitationLayout({ children }) {
   };
 
   return (
-    <>
+    <section id='invitation-layout'>
       <div className="hidden lg:flex h-screen bg-[#F7F0DE] overflow-hidden">
         <div className="flex-1 h-screen sticky top-0 overflow-hidden">
           <InvitationCover />
@@ -42,7 +42,7 @@ function InvitationLayout({ children }) {
           </div>
         )}
       </div>
-    </>
+    </section>
   );
 }
 
