@@ -1,5 +1,5 @@
+import InvitationLayout from "./layout/InvitationLayout";
 import Reveal from "./components/Reveal";
-import InvitationLayout from "./Layout/InvitationLayout";
 import HeromobileSection from "./components/HeromobileSection";
 import QuoteSection from "./components/QuoteSection";
 import ProfileSection from "./components/ProfileSection";
@@ -57,7 +57,7 @@ export default function App() {
             </Reveal>
 
             <Reveal delay={900}>
-                <InstagramSection />
+<IntagramSection />
             </Reveal>
 
             <Reveal delay={1000}>
