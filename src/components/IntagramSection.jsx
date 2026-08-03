@@ -6,7 +6,7 @@ import bunga2 from "../assets/images/orn-8.png";
 import wayang from "../assets/images/orn-26-min.png";
 
 
-export default function InstagramSection() {
+export default function IntagramSection() {
     return (
         <section className="relative w-full flex justify-center overflow-hidden">
             <div className="relative w-full h-165 overflow-hidden">

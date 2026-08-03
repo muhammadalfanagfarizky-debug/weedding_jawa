@@ -9,7 +9,7 @@ import DresSection from "./components/DresSection";
 import KonfirmasiSection from "./components/KonfirmasiSection";
 import PotraitSection from "./components/PotraitSection";
 import FootageSection from "./components/FootageSection";
-import InstagramSection from "./components/InstagramSection";
+import IntagramSection from "./components/IntagramSection";
 import GiftSection from "./components/GiftSection";
 import SendgiftSection from "./components/SendgiftSection";
 import KedatanganSection from "./components/KedatanganSection";
