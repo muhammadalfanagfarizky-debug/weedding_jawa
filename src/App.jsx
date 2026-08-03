@@ -1,4 +1,4 @@
-import InvitationLayout from "./layout/InvitationLayout";
+import InvitationLayout from "./Layout/InvitationLayout";
 import Reveal from "./components/Reveal";
 import HeromobileSection from "./components/HeromobileSection";
 import QuoteSection from "./components/QuoteSection";
