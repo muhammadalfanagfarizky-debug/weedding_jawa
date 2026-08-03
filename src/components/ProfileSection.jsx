@@ -12,12 +12,11 @@ import dan from "../assets/images/&.png";
 
 import wayangKananBawah from "../assets/images/wayang-kanan-bawah.png";
 
-
 export default function ProfileSection() {
     return (
         <section className="relative w-full flex justify-center overflow-hidden">
 
-            <div className="relative w-107.5 h-225 overflow-hidden">
+            <div className="relative w-full h-225 overflow-hidden">
 
                 <img
                     src={bgProfile}

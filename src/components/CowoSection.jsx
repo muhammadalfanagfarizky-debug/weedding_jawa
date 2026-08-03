@@ -13,7 +13,7 @@ export default function CowoSection() {
     return (
         <section className="relative w-full flex justify-center overflow-hidden">
 
-            <div className="relative w-107.5 h-165 overflow-hidden">
+            <div className="relative w-full h-165 overflow-hidden">
                 <img
                     src={bgProfile}
                     alt=""
@@ -48,7 +48,7 @@ export default function CowoSection() {
                 <img
                     src={flowerframe3}
                     alt=""
-                    className="absolute top-70.5 left-16.75 w-25.75 z-30 animate-flower-delayy"
+                    className="absolute top-70.5 left-16.75 w-25.75 z-30 animate-flower-delay"
                 />
 
                 <div className="absolute top-113 left-0 right-0 text-center z-40">

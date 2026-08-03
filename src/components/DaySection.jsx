@@ -14,7 +14,7 @@ import orn1 from "../assets/images/orn.png";
 export default function DaySection() {
     return (
         <section className="relative w-full flex justify-center overflow-hidden">
-            <div className="relative w-107.5 h-165 overflow-hidden">
+            <div className="relative w-full h-165 overflow-hidden">
                 <img
                     src={bgProfile}
                     alt=""
@@ -121,7 +121,7 @@ export default function DaySection() {
                 <img
                     src={tree}
                     alt=""
-                    className="absolute -bottom-10 -left-22.75 w-50.5 z-20 animate-tree-left"
+                    className="absolute -bottom-10 -left-25.75 w-50.5 z-20 animate-tree-left"
                 />
                 <img
                     src={tree1}
