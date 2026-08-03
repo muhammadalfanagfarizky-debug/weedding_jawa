@@ -1,5 +1,5 @@
 import Reveal from "./components/Reveal";
-import InvitationLayout from "./layout/InvitationLayout";
+import InvitationLayout from "./Layout/InvitationLayout";
 import HeromobileSection from "./components/HeromobileSection";
 import QuoteSection from "./components/QuoteSection";
 import ProfileSection from "./components/ProfileSection";
