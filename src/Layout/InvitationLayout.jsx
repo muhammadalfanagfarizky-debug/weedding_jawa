@@ -24,7 +24,7 @@ function InvitationLayout({ children }) {
                 </div>
 
 
-                <div className="h-screen w-[430px] overflow-y-auto bg-[#F7F0DE] shadow-2xl border-l border-[#E8DDC9]">
+                <div className="h-screen w-107.5 overflow-y-auto bg-[#F7F0DE] shadow-2xl border-l border-[#E8DDC9]">
 
 
                     <div className="w-full bg-[#F7F0DE]">
