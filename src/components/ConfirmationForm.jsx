@@ -7,6 +7,7 @@ export default function ConfirmationForm({
     onSave,
     onCancel,
 }) {
+
     const [status, setStatus] = useState(confirmation.status);
     const [guest, setGuest] = useState(confirmation.guest);
 
@@ -27,36 +28,44 @@ export default function ConfirmationForm({
         });
     };
 
-    return (
-        <div className="relative w-107.5 h-165 overflow-hidden">
 
-            {/* Background */}
+    return (
+        <section className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-[#F7F0DE] px-4 py-10">
+
+
             <img
                 src={bgProfile}
                 alt=""
-                className="absolute inset-0 w-full h-full object-cover"
+                className="absolute inset-0 h-full w-full object-cover"
             />
 
-            {/* Ornamen */}
+
             <img
                 src={bgBatik}
                 alt=""
-                className="absolute top-0 left-1/2 w-100 -translate-x-1/2"
+                className="absolute top-0 left-1/2 w-[380px] max-w-full -translate-x-1/2 opacity-80"
             />
 
-            <div className="absolute top-40 left-0 right-0 px-8 text-center">
 
-                <h2 className="font-[Satisfy] text-[32px] text-[#694653]">
+
+            <div className="relative w-full max-w-[430px] -translate-y-3 text-center">
+
+
+                <h2 className="font-[Satisfy] text-[30px] text-[#694653]">
                     Konfirmasi Kehadiran
                 </h2>
 
-                <p  className="mt-8 text-[#694653] text-[16px]">
-                   Maukah Kamu hadir dipernikahan Kami?
+
+
+                <p className="mt-6 px-5 text-[14px] leading-6 text-[#694653]">
+                    Maukah Kamu hadir dipernikahan Kami?
                 </p>
+
+
 
                 <button
                     onClick={() => setStatus("Hadir")}
-                    className={`mt-8 w-full rounded-full py-3 transition ${
+                    className={`mt-7 w-100 rounded-full py-3 text-sm transition ${
                         status === "Hadir"
                             ? "bg-[#694653] text-white"
                             : "border border-[#694653] text-[#694653]"
@@ -65,10 +74,11 @@ export default function ConfirmationForm({
                     Akan Hadir
                 </button>
 
-                {/* Berhalangan */}
+
+
                 <button
                     onClick={() => setStatus("Berhalangan Hadir")}
-                    className={`mt-4 w-full rounded-full py-3 transition ${
+                    className={`mt-4 w-100 rounded-full py-3 text-sm transition ${
                         status === "Berhalangan Hadir"
                             ? "bg-[#694653] text-white"
                             : "border border-[#694653] text-[#694653]"
@@ -77,13 +87,21 @@ export default function ConfirmationForm({
                     Berhalangan Hadir
                 </button>
 
+
+
                 {status === "Hadir" && (
-                    <>
-                        <p className="mt-10 text-[#694653]">
+
+                    <div className="mt-8">
+
+
+                        <p className="text-sm text-[#694653]">
                             Orang yang akan datang bersama Anda?
                         </p>
 
+
+
                         <div className="mt-5 flex items-center justify-center gap-5">
+
 
                             <button
                                 onClick={decreaseGuest}
@@ -92,9 +110,13 @@ export default function ConfirmationForm({
                                 −
                             </button>
 
+
+
                             <div className="flex h-10 w-24 items-center justify-center rounded-full border border-[#694653] text-lg font-semibold text-[#694653]">
                                 {guest}
                             </div>
+
+
 
                             <button
                                 onClick={increaseGuest}
@@ -103,26 +125,38 @@ export default function ConfirmationForm({
                                 +
                             </button>
 
+
                         </div>
-                    </>
+
+
+                    </div>
+
                 )}
 
-                {/* Tombol */}
+
+
+
                 <button
                     onClick={handleSubmit}
-                    className="mt-10 w-full rounded-full bg-[#694653] py-3 text-white transition hover:opacity-90"
+                    className="mt-8 w-100 rounded-full bg-[#694653] py-3 text-sm text-white transition hover:opacity-90"
                 >
                     Mengonfirmasi
                 </button>
 
+
+
                 <button
                     onClick={onCancel}
-                    className="mt-4 w-full rounded-full border border-[#694653] py-3 text-[#694653] transition hover:bg-[#694653] hover:text-white"
+                    className="mt-4 w-100 rounded-full border border-[#694653] py-3 text-sm text-[#694653] transition hover:bg-[#694653] hover:text-white"
                 >
                     Batal
                 </button>
 
+
+
             </div>
-        </div>
+
+
+        </section>
     );
 }

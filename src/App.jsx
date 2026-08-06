@@ -17,7 +17,6 @@ import ClosingSection from "./components/ClosingSection";
 
 export default function App() {
     return (
-
         <InvitationLayout>
 
             <Reveal>
@@ -57,7 +56,7 @@ export default function App() {
             </Reveal>
 
             <Reveal delay={900}>
-<IntagramSection />
+                <IntagramSection />
             </Reveal>
 
             <Reveal delay={1000}>
@@ -77,7 +76,6 @@ export default function App() {
                     <ClosingSection />
                 </div>
             </Reveal>
-
 
         </InvitationLayout>
     );

@@ -34,7 +34,7 @@ export default function DaySection() {
                     </p>
                 </div>
 
-                <div className="absolute bottom-120 left-47.5 -translate-x-1/2 flex gap-3 z-20">
+                <div className="absolute bottom-120 left-50.5 -translate-x-1/2 flex gap-3 z-20">
 
                     <img
                         src={day}
@@ -62,9 +62,13 @@ export default function DaySection() {
                 </div>
 
                 <div className="absolute bottom-110 left-1/2 -translate-x-1/2 z-20">
-                    <button className="bg-[#74505C] text-[#f8f1e8] px-5 py-2 rounded-full text-[13px] font-serif tracking-wide shadow-sm">
-                        Add to Calendar
-                    </button>
+                    <a
+                        href= "https://calendar.google.com/calendar/render?action=TEMPLATE"
+                        target="_blank"
+                        className="mt-6 flex w-35.5 items-center justify-center rounded-full bg-[#694653] py-3 font-serif text-[15px] text-[#f8eee7] transition duration-300 hover:opacity-90"
+                    >
+                        add kalender
+                    </a>
                 </div>
 
                 <div className="absolute top-65.5 left-0 right-0 text-center z-40">

@@ -1,16 +1,13 @@
 import bgProfile from "../assets/images/bg-texture.png";
-
 import profileWanita from "../assets/images/foto-wanita.png";
 import bingkaiWanita from "../assets/images/bingkai-Wanita.png";
-
 import bungaKananBingkai from "../assets/images/bunga-kanan-bingkai.png";
 import bungaKiriBingkai from "../assets/images/bunga-kiri-bingkai.png";
-
 import pohonKananAtas from "../assets/images/pohon-kanan-atas.png";
 import pohonKiriBawah from "../assets/images/pohon-kiri-bawah.png";
 import dan from "../assets/images/&.png";
-
 import wayangKananBawah from "../assets/images/wayang-kanan-bawah.png";
+import Frame from "../assets/images/Frame.png";
 
 export default function ProfileSection() {
     return (

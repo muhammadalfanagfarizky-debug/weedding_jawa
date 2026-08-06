@@ -13,7 +13,7 @@ import wayang from "../assets/images/orn-26-min.png";
 export default function HeromobileSection() {
     return (
         <section className="relative w-full flex justify-center overflow-hidden">
-            <div className="relative w-full h-165 overflow-hidden">
+            <div className="relative w-full h-220 overflow-hidden">
                 <img
                     src={bgProfile}
                     alt=""
