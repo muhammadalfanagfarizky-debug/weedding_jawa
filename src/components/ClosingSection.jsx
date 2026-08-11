@@ -14,7 +14,7 @@ import wayang from "../assets/images/orn-26-min.png";
 export default function ClosingSection() {
     return (
         <section className="relative w-full flex justify-center overflow-hidden">
-            <div className="relative w-full h-195 overflow-hidden">
+            <div className="relative w-full h-224 overflow-hidden">
 
                 <img
                     src={bgProfile}
@@ -29,9 +29,9 @@ export default function ClosingSection() {
                 <img
                     src={bgoverla}
                     alt=""
-                    className="absolute inset-0 w-full h-150 object-cover z-10"
+                    className="absolute inset-0 w-full h-224 object-cover z-10"
                 />
-                <div className="absolute top-65.5 left-0 right-0 text-center z-40">
+                <div className="absolute top-85.5 left-0 right-0 text-center z-40">
                     <h2 className="font-[Satisfy] italic text-[35px] text-[#694653]">
                         Sarah   & Michael
                     </h2>

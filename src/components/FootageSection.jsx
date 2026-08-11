@@ -18,7 +18,7 @@ export default function FootageSection() {
                 <img
                     src={forest}
                     alt=""
-                    className="absolute inset-0 w-100 h-150 object-cover z-10"
+                    className="absolute inset-0 w-full h-150 object-cover z-10"
                 />
                 <img
                     src={wyng}

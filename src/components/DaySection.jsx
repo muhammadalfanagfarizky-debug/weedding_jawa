@@ -72,7 +72,7 @@ export default function DaySection() {
                 </div>
 
                 {/* Countdown */}
-                <div className="absolute bottom-120 left-50.5 -translate-x-1/2 flex gap-3 z-20">
+                <div className="absolute bottom-120 left-52.5 -translate-x-1/2 flex gap-3 z-20">
 
                     <div className="relative">
                         <img src={days} alt="" className="w-12.5"/>

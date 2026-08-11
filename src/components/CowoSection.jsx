@@ -4,6 +4,7 @@ import photoofaguy from "../assets/images/Frame-pria.png";
 import flowerframe from "../assets/images/couple-bunga-04-min.png";
 import flowerframe2 from "../assets/images/couple-bunga-01-min.png";
 import flowerframe3 from "../assets/images/couple-bunga-02-min.png";
+import { FaInstagram } from "react-icons/fa";
 
 
 
@@ -65,8 +66,9 @@ export default function CowoSection() {
                     </p>
 
 
-                    <p className="mt-4 text-[13px] text-[#694653]">
-                        ◎ Michael_Ezra
+                    <p className="mt-4 flex items-center justify-center gap-2 text-[13px] text-[#694653]">
+                        <FaInstagram size={15} />
+                        Michael_Ezra
                     </p>
 
                 </div>

@@ -8,6 +8,7 @@ import pohonKiriBawah from "../assets/images/pohon-kiri-bawah.png";
 import dan from "../assets/images/&.png";
 import wayangKananBawah from "../assets/images/wayang-kanan-bawah.png";
 import Frame from "../assets/images/Frame.png";
+import { FaInstagram } from "react-icons/fa";
 
 export default function ProfileSection() {
     return (
@@ -88,8 +89,9 @@ export default function ProfileSection() {
                     </p>
 
 
-                    <p className="mt-4 text-[13px] text-[#694653]">
-                        ◎ Sarahh_Asy
+                    <p className="mt-4 flex items-center justify-center gap-2 text-[13px] text-[#694653]">
+                        <FaInstagram size={15} />
+                        Sarahh_Asy
                     </p>
 
                 </div>
@@ -101,10 +103,10 @@ export default function ProfileSection() {
                     className="absolute -bottom-5 -left-8.75 w-32.5 z-10 animate-tree-left"
                 />
 
-                 <img
+                <img
                     src={dan}
                     alt=""
-                   className="absolute bottom-9 right-40.25 w-15.5 z-20 "
+                    className="absolute bottom-9 right-40.25 w-15.5 z-20 "
                 />
 
 
