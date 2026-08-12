@@ -58,7 +58,7 @@ function MusicPlayer() {
             ? "Matikan background music"
             : "Nyalakan background music"
         }
-        className="fixed bottom-6 right-6 z-[9999] h-15 w-15 cursor-pointer transition-transform duration-300 hover:scale-110 active:scale-95"
+        className="fixed bottom-6 right-6 z-9999 h-15 w-15 cursor-pointer transition-transform duration-300 hover:scale-110 active:scale-95"
       >
         <div className="relative h-full w-full">
           <div className="absolute left-1/2 top-1/2 h-14 w-14 -translate-x-1/2 -translate-y-1/2">
