@@ -76,8 +76,8 @@ function MusicPlayer() {
           <img
             src={Tonearm}
             alt=""
-            className={`absolute -right-3 -top-1 h-15 w-10 origin-top-right object-contain transition-transform duration-500 ease-in-out ${
-              isPlaying ? "rotate-18" : "rotate-[-8deg]"
+            className={`absolute -right-4 -top-2 h-15 w-10 origin-top-right object-contain transition-transform duration-500 ease-in-out ${
+              isPlaying ? "rotate-3" : "rotate-[-8deg]"
             }`}
           />
         </div>

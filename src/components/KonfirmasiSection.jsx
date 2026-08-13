@@ -3,12 +3,9 @@ import ConfirmationResult from "./ConfirmationResult";
 import ConfirmationForm from "./ConfirmationForm";
 
 export default function KonfirmasiSection() {
-    const [isEdit, setIsEdit] = useState(false);
+    const [isEdit, setIsEdit] = useState(true);
 
-    const [confirmation, setConfirmation] = useState({
-        status: "Hadir",
-        guest: 1,
-    });
+    const [confirmation, setConfirmation] = useState(null);
 
     const handleSave = (data) => {
         setConfirmation(data);
@@ -17,16 +14,27 @@ export default function KonfirmasiSection() {
 
     return (
         <section className="relative flex w-full justify-center overflow-hidden">
-            {!isEdit ? (
+            {!isEdit && confirmation ? (
                 <ConfirmationResult
                     confirmation={confirmation}
                     onEdit={() => setIsEdit(true)}
                 />
             ) : (
                 <ConfirmationForm
-                    confirmation={confirmation}
+                    confirmation={
+                        confirmation || {
+                            name: "",
+                            status: "Hadir",
+                            guest_count: 1,
+                            message: "",
+                        }
+                    }
                     onSave={handleSave}
-                    onCancel={() => setIsEdit(false)}
+                    onCancel={() => {
+                        if (confirmation) {
+                            setIsEdit(false);
+                        }
+                    }}
                 />
             )}
         </section>
