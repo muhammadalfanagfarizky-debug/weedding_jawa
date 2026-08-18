@@ -6,7 +6,8 @@ export default function ConfirmationResult({
     onEdit,
 }) {
     return (
-        <div className="relative min-h-[660px] w-full overflow-hidden">
+        <div className="relative h-165 w-full overflow-hidden">
+
             <img
                 src={bgProfile}
                 alt=""
@@ -16,10 +17,11 @@ export default function ConfirmationResult({
             <img
                 src={bgBatik}
                 alt=""
-                className="absolute left-1/2 top-0 z-10 w-[380px] max-w-full -translate-x-1/2"
+                className="absolute left-1/2 top-0 z-10 w-100 -translate-x-1/2"
             />
 
             <div className="absolute left-0 right-0 top-44 z-20 px-8 text-center">
+
                 <h2 className="font-[Satisfy] text-[32px] text-[#694653]">
                     Konfirmasi Kehadiran
                 </h2>
@@ -32,8 +34,9 @@ export default function ConfirmationResult({
                     </span>
                 </p>
 
-                <div className="mt-10">
-                    <p className="text-sm text-[#6c5a55]">
+                <div className="mt-12">
+
+                    <p className="text-[14px] text-[#6c5a55]">
                         Terima kasih,
                     </p>
 
@@ -41,13 +44,13 @@ export default function ConfirmationResult({
                         {confirmation.name}
                     </h3>
 
-                    <h4 className="mt-5 text-[28px] font-semibold text-[#694653]">
+                    <h3 className="mt-5 text-[32px] font-semibold text-[#694653]">
                         {confirmation.status}
-                    </h4>
+                    </h3>
 
                     {confirmation.status === "Hadir" && (
                         <p className="mt-3 text-[14px] text-[#6c5a55]">
-                            Jumlah tamu: {confirmation.guest_count} orang
+                            Jumlah tamu: {confirmation.guest_count}
                         </p>
                     )}
 
@@ -68,22 +71,22 @@ export default function ConfirmationResult({
                         )}
                     </p>
 
-                    <div className="mt-8 rounded-2xl border border-[#694653]/30 px-5 py-4">
-                        <p className="text-[13px] italic leading-6 text-[#6c5a55]">
-                            "{confirmation.message}"
-                        </p>
-                    </div>
+                    <p className="mt-6 text-[13px] italic leading-6 text-[#6c5a55]">
+                        "{confirmation.message}"
+                    </p>
 
-                    <div className="mt-8 flex justify-center">
+                    <div className="mt-10 flex justify-center">
                         <button
                             type="button"
                             onClick={onEdit}
-                            className="w-full max-w-64 rounded-full bg-[#694653] py-3 text-white transition hover:opacity-90"
+                            className="w-64 rounded-full bg-[#694653] py-3 text-white transition hover:opacity-90"
                         >
                             Ubah
                         </button>
                     </div>
+
                 </div>
+
             </div>
         </div>
     );
